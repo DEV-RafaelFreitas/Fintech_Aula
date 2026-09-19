@@ -7,4 +7,10 @@ templateUrl: './menu.component.html',
 styleUrl: './menu.component.css'
 })
 export class MenuComponent {
+        itensMenu = [
+            {label:'Início', link:''},
+            {label:'Clientes',link:'clientes'},
+             {label:'Contas', link: 'contas'},
+            {label:'Sobre',link:'sobre'}
+        ];
 }
